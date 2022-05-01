@@ -1,0 +1,12 @@
+name: TownyUI
+main: io.github.gnosii.townyui.TUIMain
+version: ${project.version}
+description: Web interface for Towny
+author: EuGNosii
+prefix: TUI
+depend: [Towny]
+commands:
+  link:
+    description: Link command for TownyUI
+    permission: townyui.link
+    usage: /<command>
